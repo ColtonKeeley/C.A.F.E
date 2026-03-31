@@ -27,10 +27,6 @@ class EmailVisor(BaseVisor):
     def run(self):
         return
 
-
-        
-
-
 if __name__ == "__main__":
     visor = EmailVisor("./test.eml")
     visor.run()
