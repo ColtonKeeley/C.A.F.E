@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Visor temp files
+temp_*.html
+scrn_*.png
+email_screenshot.png
+
+# OS stuff
+.DS_Store

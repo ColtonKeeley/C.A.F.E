@@ -7,12 +7,11 @@ from email_scrn import parse_eml_to_html, take_screenshot
 
 
 # Add project root to path so we can import visor_base
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-from visor_base import BaseVisor, BaseVisorUI
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+from visor_base import BaseVisor
 
 # Inherits from base visor
 class EmailVisor(BaseVisor):
-    UI_CLASS = BaseVisorUI
 
     def __init__(self, source_path):
         super().__init__(source_path)
